@@ -1,0 +1,23 @@
+{
+  "name": "lover",
+  "version": "1.0.0",
+  "description": "Lover page",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "cls && nodemon server.js"
+  },
+  "author": "Renzo Pieri",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "4.10",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
